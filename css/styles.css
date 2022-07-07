@@ -1,0 +1,49 @@
+@import "../resources/Trispace/Trispace-VariableFont_wdth\,wght.ttf";
+
+@import "../resources/Beau_Rivage/BeauRivage-Regular.ttf";
+
+h1 {
+    font-family: 'Beau Rivage', cursive;
+    background-color: rgb(42, 78, 92);
+}
+
+.text-import {
+    font-family: 'Trispace', sans-serif;
+}
+
+li {
+    font-size: 16px;
+    color: black;
+    background-color: rgb(42, 78, 92);
+}
+
+.img-medium {
+    width: 440px;
+}
+
+footer {
+    background-color: rgb(28, 73, 58);
+    font-size: medium;
+}
+
+.redes{
+    width: 20px;
+}
+
+.background-front {
+    background-color: rgb(42, 78, 92);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.background-main {
+    background-color: rgb(42, 78, 92);
+}
+
+.bloque {
+    display: inline;
+}
