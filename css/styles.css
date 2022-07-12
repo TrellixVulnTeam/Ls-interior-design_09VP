@@ -5,10 +5,15 @@
 h1 {
     font-family: 'Beau Rivage', cursive;
     background-color: rgb(42, 78, 92);
+    padding-left: 8px;
 }
 
 .text-import {
     font-family: 'Trispace', sans-serif;
+}
+
+p {
+    padding: 0 16px;
 }
 
 li {
@@ -19,6 +24,7 @@ li {
 
 .img-medium {
     width: 440px;
+    margin-left: 0 10px;
 }
 
 footer {
@@ -44,6 +50,45 @@ footer {
     background-color: rgb(42, 78, 92);
 }
 
-.bloque {
+main {
+    background-color: rgb(42, 78, 92) ;
+}
+
+header {
+    background-color: rgb(42, 78, 92) ;
+}
+
+.header__nav {
     display: inline;
 }
+
+.header__lista {
+    display: inline;
+    padding: 0 16px;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0 16px;
+    display: inline;
+}
+
+.header__item {
+    display: inline;
+    padding: 0 20px;
+}
+
+.header__item a {
+    color: rgb(207, 222, 237);
+    text-decoration: none;
+}
+
+.header__logo {
+    display: inline;
+    background-color: rgb(42, 78, 92);
+    margin-left: 0px;
+}
+
+
+
