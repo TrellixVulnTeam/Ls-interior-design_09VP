@@ -14,11 +14,12 @@ h1 {
 
 p {
     padding: 0 16px;
+    color: white
 }
 
 li {
     font-size: 16px;
-    color: black;
+    color: white;
     background-color: rgb(42, 78, 92);
 }
 
@@ -29,7 +30,7 @@ li {
 
 footer {
     background-color: rgb(28, 73, 58);
-    font-size: medium;
+    font-size-adjust: ;
 }
 
 .redes{
@@ -78,6 +79,8 @@ ul {
     display: inline;
     padding: 0 20px;
     position: relative;
+    font-size: 16px;
+    color: rgb(207, 222, 237);
 }
 
 .header__item a {
@@ -163,6 +166,8 @@ ul {
     grid-area: texto;
     background-position: center;
     background-size: cover;
+    padding: 5px;
+    display: inline;
 }
 
 .productos__img {
@@ -192,13 +197,16 @@ ul {
 
 .ws {
     position: sticky;
-    bottom: 0px;
-    right: 0px;
+    bottom: 5px;
+    right: 5px;
 }
 
 .ws__img {
     width: 70px;
-
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;
 }
 
 .card__inicio {
@@ -215,6 +223,7 @@ ul {
     translate: 90px;
     transition: 0.4s;
 }
+
 
 
 
