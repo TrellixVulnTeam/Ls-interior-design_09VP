@@ -1,222 +1,176 @@
-@import "../resources/Trispace/Trispace-VariableFont_wdth\,wght.ttf";
-
-@import "../resources/Beau_Rivage/BeauRivage-Regular.ttf";
-
 h1 {
-    font-family: 'Beau Rivage', cursive;
-    background-color: rgb(42, 78, 92);
-    padding-left: 8px;
-}
+  font-family: 'Beau Rivage', cursive;
+  background-color: #2a4e5c;
+  padding-left: 8px; }
 
 .text-import {
-    font-family: 'Trispace', sans-serif;
-}
+  font-family: 'Trispace', sans-serif; }
 
 p {
-    padding: 0 16px;
-}
+  padding: 0 16px; }
 
 li {
-    font-size: 16px;
-    color: black;
-    background-color: rgb(42, 78, 92);
-}
+  font-size: 16px;
+  color: black;
+  background-color: #2a4e5c; }
 
 .img-medium {
-    width: 440px;
-    margin-left: 0 10px;
-}
+  width: 440px;
+  margin-left: 0 10px; }
 
 footer {
-    background-color: rgb(28, 73, 58);
-    font-size: medium;
-}
+  background-color: #1c493a;
+  font-size: medium; }
 
-.redes{
-    width: 20px;
-}
+.redes {
+  width: 20px; }
 
 .background-front {
-    background-color: rgb(42, 78, 92);
-}
+  background-color: #2a4e5c; }
 
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
 
 .background-main {
-    background-color: rgb(42, 78, 92);
-}
+  background-color: #2a4e5c; }
 
 main {
-    background-color: rgb(42, 78, 92) ;
-}
+  background-color: #2a4e5c; }
 
 header {
-    background-color: rgb(42, 78, 92) ;
-}
+  background-color: #2a4e5c; }
 
 .header__nav {
-    display: inline block;
-}
+  display: inline block; }
 
 .header__lista {
-    display: inline block;
-    padding: 0 16px;
-    list-style: none;
-}
+  display: inline block;
+  padding: 0 16px;
+  list-style: none; }
 
 ul {
-    list-style: none;
-    padding: 0 16px;
-    display: inline;
-}
+  list-style: none;
+  padding: 0 16px;
+  display: inline; }
 
 .header__item {
-    display: inline;
-    padding: 0 20px;
-    position: relative;
-}
+  display: inline;
+  padding: 0 20px;
+  position: relative; }
 
 .header__item a {
-    color: rgb(207, 222, 237);
-    text-decoration: none;
-}
+  color: #cfdeed;
+  text-decoration: none; }
 
 .header__logo {
-    display: inline;
-    background-color: rgb(42, 78, 92);
-    margin-left: 0px;
-}
+  display: inline;
+  background-color: #2a4e5c;
+  margin-left: 0px; }
 
 .productos__grid {
-    display:grid;
-    width:100vw;
-    height:90vh;
-    grid-template-columns: 0.5fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:"texto living mesa"
-                        "texto living mesa"
-                        "vestuario mesilla silla";
-    column-gap: 14px;
-    row-gap: 14px;
-}
+  display: grid;
+  width: 100vw;
+  height: 90vh;
+  grid-template-columns: 0.5fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "texto living mesa" "texto living mesa" "vestuario mesilla silla";
+  column-gap: 14px;
+  row-gap: 14px; }
 
 .sillon {
-    grid-area: sillon;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../resources/productos-sillon.jpg);
-    background-repeat: no-repeat;
-}
+  grid-area: sillon;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../resources/productos-sillon.jpg);
+  background-repeat: no-repeat; }
 
 .living {
-    grid-area: living;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../resources/productos-living.jpg);
-    background-repeat: no-repeat;
-}
+  grid-area: living;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../resources/productos-living.jpg);
+  background-repeat: no-repeat; }
 
 .mesa {
-    grid-area: mesa;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../resources/productos-mesa.jpg);
-    background-repeat: no-repeat;
-}
+  grid-area: mesa;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../resources/productos-mesa.jpg);
+  background-repeat: no-repeat; }
 
 .cama {
-    grid-area: mesa;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../resources/productos-cama.jpg);
-    background-repeat: no-repeat;
-}
+  grid-area: mesa;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../resources/productos-cama.jpg);
+  background-repeat: no-repeat; }
 
 .vestuario {
-    grid-area: vestuario;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../resources/productos-vestuario.jpg);
-    background-repeat: no-repeat;
-}
+  grid-area: vestuario;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../resources/productos-vestuario.jpg);
+  background-repeat: no-repeat; }
 
 .mesilla {
-    grid-area: mesilla;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../resources/productos-mesilla.jpg);
-    background-repeat: no-repeat;
-}
+  grid-area: mesilla;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../resources/productos-mesilla.jpg);
+  background-repeat: no-repeat; }
 
 .silla {
-    grid-area: silla;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../resources/productos-silla.jpg);
-    background-repeat: no-repeat;
-}
+  grid-area: silla;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../resources/productos-silla.jpg);
+  background-repeat: no-repeat; }
+
 .texto {
-    grid-area: texto;
-    background-position: center;
-    background-size: cover;
-}
+  grid-area: texto;
+  background-position: center;
+  background-size: cover; }
 
 .productos__img {
-    width: 100%;
-    padding: 0px 15px;
-}
+  width: 100%;
+  padding: 0px 15px; }
 
 .index {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start; }
 
 .header__item::before {
-    content:"";
-    height: 3px;
-    width: 0%;
-    background-color:  rgb(207, 222, 237);
-    position: absolute;
-    left: 0%;
-    bottom: -12px;
-    transition: 0.4s ease-out;
-}
+  content: "";
+  height: 3px;
+  width: 0%;
+  background-color: #cfdeed;
+  position: absolute;
+  left: 0%;
+  bottom: -12px;
+  transition: 0.4s ease-out; }
+
 .header__item:hover::before {
-    width: 100%;
-}
+  width: 100%; }
 
 .ws {
-    position: sticky;
-    bottom: 0px;
-    right: 0px;
-}
+  position: sticky;
+  bottom: 0px;
+  right: 0px; }
 
 .ws__img {
-    width: 70px;
-
-}
+  width: 70px; }
 
 .card__inicio {
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start
-    align-items: center;
-    border: gray solid 2px;
-    border-radius: 10px;
-    padding: 10px;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start align-items center;
+  border: gray solid 2px;
+  border-radius: 10px;
+  padding: 10px; }
 
-.img-medium:hover{
-    translate: 90px;
-    transition: 0.4s;
-}
-
-
-
-
-
+.img-medium:hover {
+  translate: 90px;
+  transition: 0.4s; }
