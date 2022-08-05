@@ -39,37 +39,32 @@ footer {
 main {
   background-color: #2a4e5c; }
 
-header {
+.header {
   background-color: #2a4e5c; }
-
-.header__nav {
-  display: inline block; }
-
-.header__lista {
-  display: inline block;
-  padding: 0 16px;
-  list-style: none; }
+  .header__nav {
+    display: inline block; }
+  .header__lista {
+    display: inline block;
+    padding: 0 16px;
+    list-style: none; }
+  .header__item {
+    display: inline;
+    padding: 0 20px;
+    position: relative;
+    font-size: 16px;
+    color: #cfdeed; }
+  .header__item a {
+    color: #cfdeed;
+    text-decoration: none; }
+  .header__logo {
+    display: inline;
+    background-color: #2a4e5c;
+    margin-left: 0px; }
 
 ul {
   list-style: none;
   padding: 0 16px;
   display: inline; }
-
-.header__item {
-  display: inline;
-  padding: 0 20px;
-  position: relative;
-  font-size: 16px;
-  color: #cfdeed; }
-
-.header__item a {
-  color: #cfdeed;
-  text-decoration: none; }
-
-.header__logo {
-  display: inline;
-  background-color: #2a4e5c;
-  margin-left: 0px; }
 
 .productos__grid {
   display: grid;
